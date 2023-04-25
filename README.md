@@ -2,30 +2,27 @@
 Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
 As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
 
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
 Paradigmas:
  - Funcional
  - Logico
  - SMA
 
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.1_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# Projeto Roteiros Aereos
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 01<br>
+**Paradigma**: FUNCIONAL<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0054832  |  Arthur Talles de Sousa Cunha |
+| 19/0045485  |  Eduardo Gurgel Pereira de Carvalho |
+| 18/0105256  |  Lucas da Cunha Andrade |
+| 18/0066382  |  Marcos Felipe de Almeida Souza |
+| 18/0058455  |  Mariana Oliveira Pires do Rio |
+| 18/0129147  |  Pedro de Miranda Haick  |
+| 18/0068229  |  Victor Yukio Cavalcanti Miki  |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
@@ -36,7 +33,7 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: Haskell<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
@@ -62,6 +59,13 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 | Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Arthur Talles de Sousa Cunha  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
+| Eduardo Gurgel Pereira de Carvalho  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
+| Lucas da Cunha Andrade  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
+| Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
+| Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
+| Pedro de Miranda Haick  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
+| Victor Yukio Cavalcanti Miki  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
