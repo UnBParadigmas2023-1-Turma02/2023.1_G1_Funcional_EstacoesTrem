@@ -22,6 +22,7 @@ Paradigmas:
 | 18/0066382  |  Marcos Felipe de Almeida Souza |
 | 18/0058455  |  Mariana Oliveira Pires do Rio |
 | 18/0129147  |  Pedro de Miranda Haick  |
+| 17/0114929  |  Thiago França Vale Oliveira  |
 | 18/0068229  |  Victor Yukio Cavalcanti Miki  |
 
 ## Sobre 
@@ -65,6 +66,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Pedro de Miranda Haick  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
+| Thiago França Vale Oliveira  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
 | Victor Yukio Cavalcanti Miki  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
 
 ## Outros 
