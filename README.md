@@ -1,4 +1,4 @@
-# 2023.1_G1_Funcional_ProjetoRoteirosAereos
+# 2023.1_G1_Funcional_EstacoesTrem
 Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
 As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
 
@@ -7,7 +7,7 @@ Paradigmas:
  - Logico
  - SMA
 
-# Projeto Roteiros Aereos
+# Projeto Estações linhas de Trem
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
 **Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 01<br>
