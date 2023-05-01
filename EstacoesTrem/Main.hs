@@ -2,5 +2,8 @@ module Main (main) where
 
 import Alertas
 
-main =
+main = do
     Alertas.alertaMenu
+    
+    entrada <- getLine
+    putStrLn "Entrada"
