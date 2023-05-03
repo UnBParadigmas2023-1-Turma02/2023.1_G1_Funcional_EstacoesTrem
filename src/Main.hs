@@ -11,15 +11,20 @@ executarFuncao opcao
 
 main :: IO ()
 main = do
-  putStrLn "=================================="
-  putStrLn "01. Listar estações"
-  putStrLn "02. Distância entre duas estações (DFS)"
-  putStrLn "03. Caminho entre duas estações (DFS)"
-  putStrLn "04. Distância entre duas estações (BFS)"
-  putStrLn "05. Caminho entre duas estações (BFS)"
-  putStrLn "06. Mostrar lista de adjacência"
-  putStrLn "=================================="
-  putStr "Selecione uma opção: "
-  input <- getLine
-  putStrLn ""
-  executarFuncao input
+    putStrLn " _____     _                          _____               "
+    putStrLn "|   __|___| |_ ___ ___ ___ ___ ___   |_   _|___ ___ _____ "
+    putStrLn "|   __|_ -|  _| .'|  _| . | -_|_ -|    | | |  _| -_|     |"
+    putStrLn "|_____|___|_| |__,|___|___|___|___|    |_| |_| |___|_|_|_|"
+                                                          
+    putStrLn "=========================================================="
+    putStrLn "1 - Listar estações (DFS)"
+    putStrLn "2 - Distância entre duas estações (DFS)"
+    putStrLn "3 - Caminho entre duas estações (BFS)"
+    putStrLn "4 - Distância entre duas estações (BFS)"
+    putStrLn "5 - Caminho entre duas estações"
+    putStrLn "5 - Mostrar lista de adjacência"
+    putStrLn "=========================================================="
+    putStr "Selecione uma opção: "
+    input <- getLine
+    putStrLn ""
+    executarFuncao input
