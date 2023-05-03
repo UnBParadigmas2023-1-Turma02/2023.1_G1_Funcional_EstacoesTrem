@@ -1,5 +1,6 @@
 module Estacoes (nomes, grafo) where
 
+-- Linha Amarela -- Linha Verde -- Linha Vermelha
 nomes :: [String]
 nomes =
   [ "Reboleira",
