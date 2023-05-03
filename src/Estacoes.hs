@@ -53,7 +53,7 @@ nomes =
     "Olaias"
   ]
 
-grafo :: [[Integer]]
+grafo :: [[Int]]
 grafo =
   [ [1],
     [0, 2],
