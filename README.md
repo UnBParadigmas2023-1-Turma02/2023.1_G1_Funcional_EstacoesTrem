@@ -31,14 +31,32 @@ Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
 Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+### Menu Principal
+![image](https://user-images.githubusercontent.com/51385738/236109427-b72b11ab-5500-4fd6-bea3-5b084d7de9f6.png)
+### Estações
+![image](https://user-images.githubusercontent.com/51385738/236109518-5e637a38-20b9-4208-89f2-c5cbcd41f0e0.png)
+![image](https://user-images.githubusercontent.com/51385738/236109571-d3c8114c-ce14-4e35-9337-b6baf98081b9.png)
+
+
 
 ## Instalação 
 **Linguagens**: Haskell<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+```
+Clonar repositorio 
+'git clone https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G1_Funcional_EstacoesTrem'
+```
+
+```
+1 - instalar o haskell
+$ sudo apt-get install haskell-platform
+
+2 - Entrar na pasta /src
+
+3 - No terminal, digite:
+$ ghc main.hs
+```
 
 ## Uso 
 Explique como usar seu projeto.
