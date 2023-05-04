@@ -26,13 +26,15 @@ Paradigmas:
 | 18/0068229  |  Victor Yukio Cavalcanti Miki  |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+O projeto se baseia na reimplementação em Haskell do projeto disponível [aqui](https://github.com/projeto-de-algoritmos/Grafos1_Trem).
+
+"O objetivo consiste na implementação de estações de trem em grafos. O projeto possibilita os usuários conhecer a menor rota entre as estações, assim como o caminho percorrido entre elas."
+
+![image](./assets/metroLisboa.jpg)
 
 ## Screenshots
 ### Menu Principal
-![image](https://user-images.githubusercontent.com/51385738/236109427-b72b11ab-5500-4fd6-bea3-5b084d7de9f6.png)
+![image](./assets/menu.png)
 ### Estações
 ![image](https://user-images.githubusercontent.com/51385738/236109518-5e637a38-20b9-4208-89f2-c5cbcd41f0e0.png)
 ![image](https://user-images.githubusercontent.com/51385738/236109571-d3c8114c-ce14-4e35-9337-b6baf98081b9.png)
@@ -41,7 +43,7 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 
 ## Instalação 
 **Linguagens**: Haskell<br>
-**Tecnologias**: xxxxxx<br>
+**Tecnologias**: GHCup<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 ```
 Clonar repositorio 
@@ -50,18 +52,20 @@ Clonar repositorio
 
 Para executar o programa é importante instalar o [GHCup](https://www.haskell.org/ghcup/) e seguir o guia de configuração para enfim interpretar ou compilar definições de tipos e funções em tempo de execução.
 
-Assumindo que Já tenha clona o repositório garanta que está dentro do repositório e acesse a pasta src:
+Assumindo que Já tenha clona o repositório garanta que está dentro do repositório e acesse a pasta src
+
+> $ cd src
 
 ![repositório](./assets/repositorio.png)
 ![source](./assets/source.png)
 
 Agora que está dentro dos arquivos vamos executar o programa com o comando:
 
-> $ ghci Main.hs
+> $ ghc --run Main.hs
 
-Ele deve compilar os Modulos pendentes para rodar a aplicação.
+Ele deve executar a aplicação de forma interpretada.
 
-![repositório](./assets/executar.png)
+<!-- ![repositório](./assets/executar.png)
 
 Por fim, digite a função principal do arquivo digitando o comando:
 
@@ -75,13 +79,17 @@ Para sair digite "7" para selecionar a opção de saida e prossiga com o comando
 
 > $ :q
 
-para sair do interpretador interativo GHCi.
+para sair do interpretador interativo GHCi. -->
 
 ## Uso 
 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+A aplicação consiste num menu simples com opções enumeradas.
+
+![imagem](./assets/menu.png)
+
+![imagem](./assets/estacoes.png)
+
+ATENÇÃO: Nas funções de cálculo de caminho e distância, selecione as estações pelos índices disponíveis de 0 a 48, a fim de evitar comportamentos inesperados (caso tenha dúvidas sobre quais estações possuem quais índices, é possível usar a função 1 (Listar Estações) e correlacionar com os nomes no mapa disponível na seção "Sobre").
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
