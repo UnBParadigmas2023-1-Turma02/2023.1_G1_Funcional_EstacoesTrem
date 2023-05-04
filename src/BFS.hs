@@ -21,3 +21,18 @@ bfs g start end = bfsHelper g [(start, [start])] (replicate (length g) False)
         where
           nextNodes = [(next, path ++ [next]) | next <- g !! curr]
           newVisited = take curr visited ++ [True] ++ drop (curr + 1) visited
+
+
+-- printPath :: [Int] -> Int -> Int -> IO ()
+-- printPath []  _ = putStrLn "Caminho não encontrado."
+-- printPath path s t =
+--     putStrLn $ "Caminho de " ++ show s ++ " a " ++ show t ++ ": " ++ show (reverse path)
+
+printDistanciaBFS :: IO ()
+printDistanciaBFS = do
+  putStr "Selecione uma estação de partida (nº): "
+  p <- getLine
+  putStr "Selecione uma estação de destino (nº): "
+  d <- getLine
+  let (dist, visited) = bfs grafo (read p :: Int) (read d :: Int)
+  printDistancia visited
