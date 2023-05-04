@@ -48,17 +48,6 @@ Clonar repositorio
 'git clone https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G1_Funcional_EstacoesTrem'
 ```
 
-```
-1 - instalar o haskell
-$ sudo apt-get install haskell-platform
-
-2 - Entrar na pasta /src
-
-3 - No terminal, digite:
-$ ghc main.hs
-```
-
-## Uso 
 Para executar o programa é importante instalar o [GHCup](https://www.haskell.org/ghcup/) e seguir o guia de configuração para enfim interpretar ou compilar definições de tipos e funções em tempo de execução.
 
 Assumindo que Já tenha clona o repositório garanta que está dentro do repositório e acesse a pasta src:
@@ -87,6 +76,12 @@ Para sair digite "7" para selecionar a opção de saida e prossiga com o comando
 > $ :q
 
 para sair do interpretador interativo GHCi.
+
+## Uso 
+
+Explique como usar seu projeto.
+Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
+Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
