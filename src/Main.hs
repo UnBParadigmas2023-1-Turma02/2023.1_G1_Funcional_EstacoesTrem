@@ -19,7 +19,7 @@ main = do
     putStrLn "=========================================================="
     putStrLn "1 - Listar estações (DFS)"
     putStrLn "2 - Distância entre duas estações (DFS)"
-    putStrLn "3 - Caminho entre duas estações (BFS)"
+    putStrLn "3 - Caminho entre duas estações (DFS)"
     putStrLn "4 - Distância entre duas estações (BFS)"
     putStrLn "5 - Caminho entre duas estações"
     putStrLn "5 - Mostrar lista de adjacência"
@@ -32,17 +32,17 @@ main = do
     case input of
       "1" -> do
         putStrLn ""
-        putStrLn ">>>>>Função de listar (DFS) aqui<<<<<\n"
+        listarEstacoes
         putStrLn ""
         main
       "2" -> do
         putStrLn ""
-        putStrLn ">>>>>Função de distância entre estações (DFS) aqui<<<<<\n"
+        printDistanciaDFS
         putStrLn ""
         main
       "3" -> do
         putStrLn ""
-        putStrLn ">>>>>Função de caminho entre estações (BFS) aqui<<<<<\n"
+        printCaminhoDFS
         putStrLn ""
         main
       "4" -> do
