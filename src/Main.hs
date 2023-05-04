@@ -23,8 +23,42 @@ main = do
     putStrLn "4 - Distância entre duas estações (BFS)"
     putStrLn "5 - Caminho entre duas estações"
     putStrLn "5 - Mostrar lista de adjacência"
+    putStrLn "6 - Mostrar lista de adjacência"
+    putStrLn "7 - Sair"
     putStrLn "=========================================================="
     putStr "Selecione uma opção: "
-    input <- getLine
-    putStrLn ""
-    executarFuncao input
+
+    input <- getLine-- exemplo de entrada do usuário
+    case input of
+      "1" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de listar (DFS) aqui<<<<<\n"
+        putStrLn ""
+        main
+      "2" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de distância entre estações (DFS) aqui<<<<<\n"
+        putStrLn ""
+        main
+      "3" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de caminho entre estações (BFS) aqui<<<<<\n"
+        putStrLn ""
+        main
+      "4" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de distância entre estações (BFS) aqui<<<<<\n"
+        putStrLn ""
+        main
+      "5" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de caminho entre estações aqui<<<<<\n"
+        putStrLn ""
+        main
+      "6" -> do
+        putStrLn ""
+        putStrLn ">>>>>Função de lista de adjacências aqui<<<<<\n"
+        putStrLn ""
+        main
+      "7" -> do
+        putStrLn ""
