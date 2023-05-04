@@ -1,6 +1,7 @@
 import Estacoes (grafo, nomes)
 import Utils (listarEstacoes)
 import DFS (printCaminhoDFS, printDistanciaDFS)
+import BFS (printDistanciaBFS)
 
 executarFuncao :: String -> IO ()
 executarFuncao opcao
@@ -47,7 +48,7 @@ main = do
         main
       "4" -> do
         putStrLn ""
-        putStrLn ">>>>>Função de distância entre estações (BFS) aqui<<<<<\n"
+        printDistanciaBFS 
         putStrLn ""
         main
       "5" -> do
