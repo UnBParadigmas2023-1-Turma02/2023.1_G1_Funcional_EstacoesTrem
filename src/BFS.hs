@@ -1,4 +1,4 @@
-module BFS (printDistanciaBFS) where
+module BFS (printDistanciaBFS, printCaminhoBFS) where
 
 import Estacoes (grafo)
 import Utils (printCaminho, printDistancia)
@@ -36,3 +36,12 @@ printDistanciaBFS = do
   d <- getLine
   let (dist, visited) = bfs grafo (read p :: Int) (read d :: Int)
   printDistancia visited
+
+printCaminhoBFS :: IO () 
+printCaminhoBFS = do
+  putStr "Selecione uma estação de partida (nº): "
+  p <- getLine
+  putStr "Selecione uma estação de destino (nº): "
+  d <- getLine
+  let (dist, visited) = bfs grafo (read p :: Int) (read d :: Int)
+  printCaminho visited

@@ -1,4 +1,4 @@
-import BFS (printDistanciaBFS)
+import BFS (printCaminhoBFS, printDistanciaBFS)
 import DFS (printCaminhoDFS, printDistanciaDFS)
 import Estacoes (grafo, nomes)
 import Utils (listarEstacoes)
@@ -9,6 +9,7 @@ executarFuncao opcao
   | opcao == "2" = printDistanciaDFS
   | opcao == "3" = printCaminhoDFS
   | opcao == "4" = printDistanciaBFS
+  | opcao == "5" = printCaminhoBFS
   | otherwise = putStrLn "Opção inválida"
 
 main :: IO ()
@@ -56,7 +57,7 @@ main = do
 --     main
 --   "5" -> do
 --     putStrLn ""
---     putStrLn ">>>>>Função de caminho entre estações aqui<<<<<\n"
+--     printCaminhoBFS
 --     putStrLn ""
 --     main
 --   "6" -> do
