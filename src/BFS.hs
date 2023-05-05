@@ -30,18 +30,18 @@ bfs g start end = bfsHelper g [(start, [start])] (replicate (length g) False)
 
 printDistanciaBFS :: IO ()
 printDistanciaBFS = do
-  putStr "Selecione uma estação de partida (nº): "
+  putStr "Selecione uma estação de partida (0 - 48): "
   p <- getLine
-  putStr "Selecione uma estação de destino (nº): "
+  putStr "Selecione uma estação de destino (0 - 48): "
   d <- getLine
   let (dist, visited) = bfs grafo (read p :: Int) (read d :: Int)
   printDistancia visited
 
 printCaminhoBFS :: IO () 
 printCaminhoBFS = do
-  putStr "Selecione uma estação de partida (nº): "
+  putStr "Selecione uma estação de partida (0 - 48): "
   p <- getLine
-  putStr "Selecione uma estação de destino (nº): "
+  putStr "Selecione uma estação de destino (0 - 48): "
   d <- getLine
   let (dist, visited) = bfs grafo (read p :: Int) (read d :: Int)
   printCaminho visited

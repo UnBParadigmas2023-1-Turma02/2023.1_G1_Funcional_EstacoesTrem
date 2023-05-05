@@ -13,23 +13,23 @@ dfs :: Int -> Int -> [Int] -> [Int]
 dfs p d v
   | p `elem` v = []
   | p == d = [p]
-  | d `elem` grafo !! p = [p, d]
+  | d `elem` (grafo !! p) = [p, d]
   | otherwise = p : dfs_ (grafo !! p) d (p : v)
 
 printCaminhoDFS :: IO ()
 printCaminhoDFS = do
-  putStr "Selecione uma estação de partida (nº): "
+  putStr "Selecione uma estação de partida (0 - 48): "
   p <- getLine
-  putStr "Selecione uma estação de destino (nº): "
+  putStr "Selecione uma estação de destino (0 - 48): "
   d <- getLine
   let caminho = dfs (read p :: Int) (read d :: Int) []
   printCaminho caminho
 
 printDistanciaDFS :: IO ()
 printDistanciaDFS = do
-  putStr "Selecione uma estação de partida (nº): "
+  putStr "Selecione uma estação de partida (0 - 48): "
   p <- getLine
-  putStr "Selecione uma estação de destino (nº): "
+  putStr "Selecione uma estação de destino (0 - 48): "
   d <- getLine
   let caminho = dfs (read p :: Int) (read d :: Int) []
   printDistancia caminho
