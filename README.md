@@ -111,7 +111,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Pedro de Miranda Haick  | Algoritmo de busca DFS e funções relacionadas | Boa |
-| Thiago França Vale Oliveira  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
+| Thiago França Vale Oliveira  | Desenvolvi funções para auxiliar no funcionamento e fluxo do menu, corrigi bugs que levariam o programa a ser encerrado e escrevi toda a parte de documentação da wiki | Boa |
 | Victor Yukio Cavalcanti Miki  | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto.  | Boa |
 
 ## Outros 
