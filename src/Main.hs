@@ -1,7 +1,7 @@
 import BFS (printCaminhoBFS, printDistanciaBFS)
 import DFS (printCaminhoDFS, printDistanciaDFS)
 import Estacoes (grafo, nomes)
-import Utils (listarEstacoes)
+import Utils (listarEstacoes, printGrafoEstatico)
 
 executarFuncao :: String -> IO ()
 executarFuncao opcao
@@ -10,7 +10,7 @@ executarFuncao opcao
   | opcao == "3" = printCaminhoDFS >> continuarPrograma opcao
   | opcao == "4" = printDistanciaBFS >> continuarPrograma opcao
   | opcao == "5" = printCaminhoBFS >> continuarPrograma opcao
-  | opcao == "6" = print grafo >> continuarPrograma opcao
+  | opcao == "6" = printGrafoEstatico >> continuarPrograma opcao
   | opcao == "7" = return ()
   | otherwise = putStrLn "Opção inválida" >> main
 
@@ -47,11 +47,9 @@ main = do
   putStrLn ""
   executarFuncao input
 
-
 -- case input of
 --   "1" -> do
---     putStrLn ""
---     listarEstacoes
+--     putStrLn ""--     listarEstacoes
 --     putStrLn ""
 --     main
 --   "2" -> do
