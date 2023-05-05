@@ -129,5 +129,4 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 ## Fontes
 
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+- http://zvon.org/other/haskell/Outputglobal/index.html
