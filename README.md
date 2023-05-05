@@ -114,7 +114,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Eduardo Gurgel Pereira de Carvalho | Pareamento com o Arthur para Listagem das estações, detalhamento do grafo, arte do menu e edição do vídeo de apresentação. | Excelente |
 | Lucas da Cunha Andrade | Fiz pareamento com o Victor Yukio para criar a função de BFS. Implementei duas funções para montagem do grafo (não entrou na versão final pois decidimos por deixar o grafo fixo). | Excelente |
 | Marcos Felipe de Almeida Souza | Desenvolvimento da impressão do Grafo | Boa |
-| Mariana Oliveira Pires do Rio | Programação dos Fatos da Base de Conhecimento Lógica | Excelente |
+| Mariana Oliveira Pires do Rio | Desenvolvimento da impressão do caminho apartir do algoritimo BFS | Boa |
 | Pedro de Miranda Haick | Algoritmo de busca DFS e funções relacionadas | Excelente |
 | Thiago França Vale Oliveira | Desenvolvi funções para auxiliar no funcionamento e fluxo do menu, corrigi bugs que levariam o programa a ser encerrado e escrevi toda a parte de documentação da wiki | Excelente |
 | Victor Yukio Cavalcanti Miki | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto. | Excelente |
