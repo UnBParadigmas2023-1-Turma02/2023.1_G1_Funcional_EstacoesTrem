@@ -113,7 +113,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Pedro de Miranda Haick  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
 | Thiago França Vale Oliveira  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
-| Victor Yukio Cavalcanti Miki  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
+| Victor Yukio Cavalcanti Miki  | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto.  | Boa |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
