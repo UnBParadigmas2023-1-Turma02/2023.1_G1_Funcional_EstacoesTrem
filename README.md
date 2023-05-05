@@ -105,13 +105,12 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
 | Arthur Talles de Sousa Cunha  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Eduardo Gurgel Pereira de Carvalho  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Lucas da Cunha Andrade  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
 | Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Pedro de Miranda Haick  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
+| Pedro de Miranda Haick  | Algoritmo de busca DFS e funções relacionadas | Boa |
 | Thiago França Vale Oliveira  | Programação dos Fatos da Base de Conhecimento Lógica   | Boa |
 | Victor Yukio Cavalcanti Miki  | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto.  | Boa |
 
