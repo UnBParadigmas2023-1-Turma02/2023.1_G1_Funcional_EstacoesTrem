@@ -5,12 +5,25 @@ import Utils (listarEstacoes)
 
 executarFuncao :: String -> IO ()
 executarFuncao opcao
-  | opcao == "1" = listarEstacoes
-  | opcao == "2" = printDistanciaDFS
-  | opcao == "3" = printCaminhoDFS
-  | opcao == "4" = printDistanciaBFS
-  | opcao == "5" = printCaminhoBFS
-  | otherwise = putStrLn "Opção inválida"
+  | opcao == "1" = listarEstacoes >> continuarPrograma opcao
+  | opcao == "2" = printDistanciaDFS >> continuarPrograma opcao
+  | opcao == "3" = printCaminhoDFS >> continuarPrograma opcao
+  | opcao == "4" = printDistanciaBFS >> continuarPrograma opcao
+  | opcao == "5" = printCaminhoBFS >> continuarPrograma opcao
+  | opcao == "6" = print grafo >> continuarPrograma opcao
+  | opcao == "7" = return ()
+  | otherwise = putStrLn "Opção inválida" >> main
+
+continuarPrograma :: String -> IO ()
+continuarPrograma opcao = do
+  putStrLn "O que deseja fazer? [1]Menu [2]Repetir [3]Finalizar"
+  putStr "Selecione uma opção: "
+  continuar <- getLine
+  case continuar of
+    "1" -> main
+    "2" -> executarFuncao opcao
+    "3" -> return ()
+    _ -> putStrLn "Opção inválida" >> continuarPrograma opcao
 
 main :: IO ()
 main = do
@@ -26,13 +39,14 @@ main = do
   putStrLn "4 - Distância entre duas estações (BFS)"
   putStrLn "5 - Caminho entre duas estações (BFS)"
   putStrLn "6 - Mostrar lista de adjacência"
-  -- putStrLn "7 - Sair"
+  putStrLn "7 - Sair"
   putStrLn "=========================================================="
   putStr "Selecione uma opção: "
 
   input <- getLine -- exemplo de entrada do usuário
   putStrLn ""
   executarFuncao input
+
 
 -- case input of
 --   "1" -> do
