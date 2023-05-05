@@ -1,13 +1,10 @@
-# 2023.1_G1_Funcional_EstacoesTrem
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
+# Projeto Estações linhas de Trem
 
 Paradigmas:
  - Funcional
  - Logico
  - SMA
 
-# Projeto Estações linhas de Trem
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
 **Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 01<br>
@@ -105,14 +102,14 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Arthur Talles de Sousa Cunha  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Eduardo Gurgel Pereira de Carvalho  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Lucas da Cunha Andrade  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Boa |
-| Pedro de Miranda Haick  | Algoritmo de busca DFS e funções relacionadas | Boa |
-| Thiago França Vale Oliveira  | Desenvolvi funções para auxiliar no funcionamento e fluxo do menu, corrigi bugs que levariam o programa a ser encerrado e escrevi toda a parte de documentação da wiki | Boa |
-| Victor Yukio Cavalcanti Miki  | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto.  | Boa |
+| Arthur Talles de Sousa Cunha  | Programação dos Fatos da Base de Conhecimento Lógica  | Excelente |
+| Eduardo Gurgel Pereira de Carvalho  | Pareamento com o Arthur para Listagem das estações, detalhamento do grafo, arte do menu e edição do vídeo de apresentação.  | Excelente |
+| Lucas da Cunha Andrade  | Programação dos Fatos da Base de Conhecimento Lógica  | Excelente |
+| Marcos Felipe de Almeida Souza  | Programação dos Fatos da Base de Conhecimento Lógica  | Excelente |
+| Mariana Oliveira Pires do Rio  | Programação dos Fatos da Base de Conhecimento Lógica  | Excelente |
+| Pedro de Miranda Haick  | Algoritmo de busca DFS e funções relacionadas | Excelente |
+| Thiago França Vale Oliveira  | Desenvolvi funções para auxiliar no funcionamento e fluxo do menu, corrigi bugs que levariam o programa a ser encerrado e escrevi toda a parte de documentação da wiki | Excelente |
+| Victor Yukio Cavalcanti Miki  | Fiz pareamento com o Lucas Andrade e Implementamos o algoritmo BFS e o printDistancia e documentei o passo-a-passo para executar o projeto.  | Excelente |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
