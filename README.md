@@ -113,7 +113,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Arthur Talles de Sousa Cunha | Programação dos Fatos da Base de Conhecimento Lógica | Excelente |
 | Eduardo Gurgel Pereira de Carvalho | Pareamento com o Arthur para Listagem das estações, detalhamento do grafo, arte do menu e edição do vídeo de apresentação. | Excelente |
 | Lucas da Cunha Andrade | Programação dos Fatos da Base de Conhecimento Lógica | Excelente |
-| Marcos Felipe de Almeida Souza | Desenvolvimento da impressão da Grafo | Boa |
+| Marcos Felipe de Almeida Souza | Desenvolvimento da impressão do Grafo | Boa |
 | Mariana Oliveira Pires do Rio | Programação dos Fatos da Base de Conhecimento Lógica | Excelente |
 | Pedro de Miranda Haick | Algoritmo de busca DFS e funções relacionadas | Excelente |
 | Thiago França Vale Oliveira | Desenvolvi funções para auxiliar no funcionamento e fluxo do menu, corrigi bugs que levariam o programa a ser encerrado e escrevi toda a parte de documentação da wiki | Excelente |
