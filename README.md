@@ -95,15 +95,16 @@ A aplicação consiste num menu simples com opções enumeradas.
 ATENÇÃO: Nas funções de cálculo de caminho e distância, selecione as estações pelos índices disponíveis de 0 a 48, a fim de evitar comportamentos inesperados (caso tenha dúvidas sobre quais estações possuem quais índices, é possível usar a função 1 (Listar Estações) e correlacionar com os nomes no mapa disponível na seção "Sobre").
 
 ## Vídeo
+```
+https://youtu.be/u3-JEF20usI
+```
+Vídeo de apresentação da equipe que busca:
 
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure:
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+- (i) Introduzir o projeto;
+- (ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
+- (iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
+- (iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
+
 
 ## Participações
 
